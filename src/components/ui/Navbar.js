@@ -22,7 +22,7 @@ export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
       <button
-        class="navbar-toggler mb-3 mt-3 ms-3"
+        className="navbar-toggler mb-3 mt-3 ms-3"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarToggler"
@@ -30,7 +30,7 @@ export const Navbar = () => {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon"></span>
       </button>
       <Link className="navbar-brand" to="/">
         <div className="ms-5">Asociaciones</div>
