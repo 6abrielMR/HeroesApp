@@ -25,10 +25,10 @@ export const SearchScreen = () => {
 
   return (
     <>
-      <h1>Búsquedas</h1>
+      <h1 className="my-3">Búsquedas</h1>
       <hr />
       <div className="row">
-        <div className="col-5">
+        <div className="col-12 col-md-5">
           <h4>Buscar</h4>
           <hr />
           <form onSubmit={handleSearch}>
@@ -42,14 +42,14 @@ export const SearchScreen = () => {
               value={searchText}
             />
             <button
-              className="btn btn-outline-primary mt-1 col-12"
+              className="btn btn-outline-primary mt-1 mb-5 col-12"
               type="submit"
             >
               Buscar...
             </button>
           </form>
         </div>
-        <div className="col-7">
+        <div className="col-12 col-md-7">
           <h4>Resultados</h4>
           <hr />
           {!!!q ? (

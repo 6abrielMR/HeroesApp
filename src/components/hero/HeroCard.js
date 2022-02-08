@@ -17,7 +17,7 @@ export const HeroCard = ({
           <div className="col-4">
             <img
               src={heroImages(`./${id}.jpg`)}
-              className="card-img"
+              className="w-100 h-100 card-img"
               alt={superhero}
             />
           </div>
